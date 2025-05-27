@@ -95,7 +95,7 @@ def calculate_mse(image1, image2):
 
 # --- Main Execution ---
 if __name__ == "__main__":
-    text_file = "lincon.txt"
+    text_file = "lincon_rotated.txt"
 
     print("\nReading text and converting to grayscale image...")
     ascii_matrix = text_file_to_grayscale_matrix(text_file)
